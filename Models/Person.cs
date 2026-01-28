@@ -8,7 +8,7 @@ namespace HH_RU.Models
 {
     public class Person
     {
-        public Guid PersonId { get; set; }
+        public required string PersonId { get; set; }
 		public int? PEOPLE_CODE { get; set; }
         public required string Lastname { get; set; }
         public required string Firstname { get; set; }
